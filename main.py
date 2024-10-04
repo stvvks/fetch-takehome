@@ -132,3 +132,4 @@ if __name__ == "__main__":
 # In company setting would see which functions are reusuable and create an internal library
 # of functions. Doing that would clean up the code by importing those libraries
 # so we dont have to write out logic.
+# & Parameterize functions!
