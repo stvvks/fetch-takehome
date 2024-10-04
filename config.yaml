@@ -1,0 +1,29 @@
+- name: Jeremiah's Portfolio
+  url: https://stvvks.github.io/jeremiahportfolio/
+  method: GET
+  headers:
+    user-agent: health-check-bot
+
+- name: My GitHub API
+  url: https://api.github.com/users/stvvks
+  method: GET
+  headers:
+    user-agent: health-check-bot
+    accept: application/vnd.github.v3+json
+
+- name: Hypothetical Post Endpoint
+  url: https://httpbin.org/post
+  method: POST
+  headers:
+    content-type: application/json
+    user-agent: health-check-bot
+  body: '{"key": "value"}'
+
+- name: Non-Existent Site
+  url: https://www.IHopeToBeNextEngineerForFetch.com/
+
+- name: Slow Response Site
+  url: https://httpstat.us/200?sleep=600
+  method: GET
+  headers:
+    user-agent: health-check-bot
